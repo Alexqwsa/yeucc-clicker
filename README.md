@@ -4,9 +4,9 @@
 
 ## To-Do list
 
--[] the main stuff (shop, boosts and etc)
--[] competitive gameplay "optional" (live leaderboard, etc)
--[] basically more stuff "also optional" (skins, maybe api and more)
+- [ ] the main stuff (shop, boosts and etc)
+- [ ] the competitive stuff "optional" (live leaderboard, etc)
+- [ ] basically more stuff "also optional" (skins, maybe api and more)
 
 ## Credits
 
