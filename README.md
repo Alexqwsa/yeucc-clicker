@@ -8,6 +8,10 @@
 - [ ] the competitive stuff "optional" (live leaderboard, etc)
 - [ ] basically more stuff "also optional" (skins, maybe api and more)
 
+## current version
+
+### 0.0.2 (milkyway wip demo) (everything is subject to change)
+
 ## Credits
 
 [alexqwsa](https://www.roblox.com/users/366078425/profile): almost everything (except for art, vods and more)

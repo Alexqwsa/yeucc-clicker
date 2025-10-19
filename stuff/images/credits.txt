@@ -1,7 +1,12 @@
 alexqwsa (me, i made the game)
+/assets
+clickmultiplier.png
+yeucc-clicker-icon.png
+/yeucc
 yeuccL.png
 
 
 someone (i dont know who):
+/yeucc
 yeucchappy.png
 yeuccschmile.png

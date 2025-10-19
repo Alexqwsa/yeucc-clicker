@@ -15,27 +15,31 @@
     <body class="body">
         <!-- move the button and yeuccling amount to the center -->
         
-            <div class="main-area" style="border: solid; width: 300px; border-radius: 16px;">
+        <pre class="wipnotice">this is in work in progress, everything is subject to change</pre>
+
+        <div class="main-area" style="border: solid; width: 300px; border-radius: 16px;">
             <h2>yeucclings: <span id="yeuccling-bank-amount">none (yet)</span></h2>
             <p id="clickmultidisplay">none yet</p> <br> <p> </p>
             <button id="yeucc" class="yeucc">
-                <img src="stuff/images/yeucc/yeuccschmile.png" alt="Yeucc" onclick="addyeuccling()">
+                <img src="stuff/images/yeucc/yeuccschmile.png" alt="Yeucc" onclick="yeuccclick()" id="yeuccimage">
             </button>
         </div>
         
-        <div class="shop">
+        <div class="shop" style="border: solid; width: fit-content; padding: 21px;">
             <h1>the shop...</h1>
+            <img src="stuff/images/assets/clickmultiplier.png" width="100px" height="100px">
             <h3>funny click multiplier</h3>
+            <pre id="clickmultiowned">none bought</pre>
             <p>increase the click multiplier thingy</p>
             <pre id="clickmulticostdisplay">cost: 50 yeucclings</pre>
-            <button onclick="buyclickmultiplier()">buy buy buy</button>
+            <button onclick="buyclickmultiplier()" class="multiplierbuyer">buy buy buy</button>
         </div>
         
         <div class="leaderboard">
         </div>
         
         <div class="credits">
-            made by <span class="owner-text"><a href="https://github.com/Alexqwsa">alexqwsa</a></span>, for <span class="yeuc_c-credits-text"><a href="https://www.roblox.com/users/978273168/profile">yeucc</a></span> <br> <img src="stuff/images/yeucc/yeuccL.png" width="50" height="50"></a>
+            made by <span class="owner-text"><a href="https://github.com/Alexqwsa">alexqwsa</a></span>, for <span class="yeuc_c-credits-text"><a href="https://www.roblox.com/users/978273168/profile">yeucc</a></span> <img src="stuff/images/yeucc/yeuccL.png" width="20" height="20"></a>
         </div>
         
         
@@ -43,5 +47,6 @@
             <h2>settings</h2>
             <button onclick="save()">save progress</button>
         </div>-->
+        <pre class="version">version 0.0.2 (milkyway wip build)</pre>
     </body>
 </html>

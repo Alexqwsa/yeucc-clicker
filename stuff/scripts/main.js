@@ -1,6 +1,7 @@
 yeucclings = 0;
 clickmulti = 1;
 clickmultiprice = 50;
+clickmultiowned = 0;
 
 //save file thingy
 //function save() {
@@ -14,8 +15,14 @@ clickmultiprice = 50;
     //clickmultiprice = parseInt(localStorage.getItem("clickmultiprice"));
 //}
 
-// how do i add a yeuccling when the yeucc button is clicked
-function addyeuccling() {
+
+function yeuccclick() {
+    //make the yeucc image change to happy for when its hold down by a click
+    document.getElementById("yeuccimage").src="stuff/images/yeucc/yeucchappy.png";
+    setTimeout(function() {
+        document.getElementById("yeuccimage").src="stuff/images/yeucc/yeuccschmile.png";
+    }, 100);
+    // how do i add a yeuccling when the yeucc button is clicked
     yeucclings += clickmulti;
     document.getElementById("yeuccling-bank-amount").innerText = yeucclings;
 }
@@ -24,11 +31,13 @@ function addyeuccling() {
 function buyclickmultiplier() {
     if (yeucclings >= clickmultiprice) {
       yeucclings -= clickmultiprice;
+      clickmultiowned += 1;
       clickmulti += 1;
       clickmultiprice += 50;
       document.getElementById("yeuccling-bank-amount").innerText = yeucclings;
       document.getElementById("clickmultidisplay").innerText = "click multiplier: " + clickmulti;
       document.getElementById("clickmulticostdisplay").innerText = "cost: " + clickmultiprice + " yeucclings";
+      document.getElementById("clickmultiowned").innerText = "click multipliers owned: " + clickmultiowned;
     }
 }
 //change the owner text on the credits when hovered on it

@@ -1,9 +1,17 @@
 body { 
   background-color: rgb(85, 85, 85);
-  margin: 40px;
+  margin: 5px;
 }
 
-
+pre.wipnotice {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: yellow;
+}
 div.main-area {
 position: absolute;
 top: 50%;
@@ -23,14 +31,37 @@ text-align: center;
 }
 
 div.shop {
-    
+  button.multiplierbuyer {
+    margin-top: 10px;
+    background-color: greenyellow;
+  
+  }
+
+  button.multiplierbuyer:hover {
+    background-color: lime;
+  }
+
+  button.multiplierbuyer:active {
+    background-color: lightgreen;
+  }
 }
 
 div.credits {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+
+  
   span.owner-text {
     font-family: 'Google Sans Code', sans-serif;
   }
   span.yeuc_c-credits-text {
     font-family: 'Courier New', Courier, monospace;
   }
+}
+
+pre.version {
+  position: absolute;
+  top: 95%;
+  left: 85%;
 }
