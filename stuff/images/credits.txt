@@ -1,7 +1,7 @@
 alexqwsa (me, i made the game)
 /assets
 clickmultiplier.png
-yeucc-clicker-icon.png
+yeucc-clicker-icon.png (not really mine because i overlayed the cursor one that i drew, if you remove the cursor overlay its actually just yeuccschmile.png)
 /yeucc
 yeuccL.png
 
