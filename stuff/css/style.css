@@ -1,13 +1,20 @@
 body { background-color: rgb(85, 85, 85); }
 
 div.mainarea {
-    button.yeuccling {
-        background-blend-mode:unset;
+    
+    /* make the yeucc button invisible except for the image */
+   button.yeucc {
+      background-color: transparent;
+      border: none;
+
     }
 }
 
 div.credits {
-span.owner-text {
-    font-family: ;
-}
+  span.owner-text {
+    font-family: 'Google Sans Code', sans-serif;
+  }
+  span.yeuc_c-credits-text {
+    font-family: 'Courier New', Courier, monospace;
+  }
 }
