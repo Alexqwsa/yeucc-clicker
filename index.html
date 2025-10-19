@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         
         <title>Yeucc clicker</title>
-        <link rel="icon" type="image/x-icon" href="stuff/images/yeuccschmile.png">
+        <link rel="icon" type="image/x-icon" href="stuff/images/yeucc/yeucchappy.png">
         <!-- how do i make a website that has style :sob: -->
         <link rel="stylesheet" href="stuff/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,18 +13,24 @@
         <script src="stuff/scripts/main.js"></script>
     </head>
     <body class="body">
-        <main>
-
-        </main>
-
-        <div class="main-area">
-            <h3>yeucclings: <span id="yeuccling-bank-amount">none (yet)</span></h3>
+        <!-- move the button and yeuccling amount to the center -->
+        
+            <div class="main-area" >
+            <h2>yeucclings: <span id="yeuccling-bank-amount">none (yet)</span></h2>
+            <p id="clickmultidisplay">none yet</p> <br> <p> </p>
             <button id="yeucc" class="yeucc">
-                <img src="stuff/images/yeuccschmile.png" alt="Yeucc" onclick="addyeuccling()">
+                <img src="stuff/images/yeucc/yeuccschmile.png" alt="Yeucc" onclick="addyeuccling()">
             </button>
         </div>
+        <div class="shop">
+            <h1>the shop...</h1>
+            <h3>funny click multiplier</h3>
+            <p>increase the click multiplier thingy</p>
+            <pre id="clickmulticostdisplay">cost: 50 yeucclings</pre>
+            <button onclick="buyclickmultiplier()">buy buy buy</button>
+        </div>
         <div class="credits">
-            made by <span class="owner-text"><a href="https://github.com/Alexqwsa">alexqwsa</a></span>, for <span class="yeuc_c-credits-text"><a href="https://www.roblox.com/users/978273168/profile">yeucc</a></span> <br> <img src="stuff/images/yeuccL.png" width="50" height="50"></a>
+            made by <span class="owner-text"><a href="https://github.com/Alexqwsa">alexqwsa</a></span>, for <span class="yeuc_c-credits-text"><a href="https://www.roblox.com/users/978273168/profile">yeucc</a></span> <br> <img src="stuff/images/yeucc/yeuccL.png" width="50" height="50"></a>
         </div>
     </body>
 </html>
