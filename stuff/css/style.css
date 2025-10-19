@@ -1,12 +1,24 @@
-body { background-color: rgb(85, 85, 85); }
+body { 
+  background-color: rgb(85, 85, 85);
+  margin: 40px;
+}
 
-div.mainarea {
-    
-    /* make the yeucc button invisible except for the image */
+
+div.main-area {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); 
+place-items: center;
+text-align: center;
+  /* make the yeucc button invisible except for the image */
    button.yeucc {
       background-color: transparent;
       border: none;
-
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      outline: none;
     }
 }
 

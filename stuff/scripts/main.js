@@ -2,6 +2,18 @@ yeucclings = 0;
 clickmulti = 1;
 clickmultiprice = 50;
 
+//save file thingy
+//function save() {
+   // localStorage.setItem("yeucclings", yeucclings);
+    //localStorage.setItem("clickmulti", clickmulti);
+    //localStorage.setItem("clickmultiprice", clickmultiprice);
+//}
+//function load() {
+    //yeucclings = parseInt(localStorage.getItem("yeucclings"));
+    //clickmulti = parseInt(localStorage.getItem("clickmulti"));
+    //clickmultiprice = parseInt(localStorage.getItem("clickmultiprice"));
+//}
+
 // how do i add a yeuccling when the yeucc button is clicked
 function addyeuccling() {
     yeucclings += clickmulti;
