@@ -1,6 +1,6 @@
-body { 
-  background-color: rgb(85, 85, 85);
-  margin: 5px;
+body, .body {
+  margin: 12px;
+  background-color: rgb(28, 41, 0);
 }
 
 pre.wipnotice {
@@ -12,6 +12,7 @@ pre.wipnotice {
   font-size: 14px;
   color: yellow;
 }
+
 div.main-area {
 position: absolute;
 top: 50%;
@@ -31,6 +32,11 @@ text-align: center;
 }
 
 div.shop {
+  background-color:indigo ;
+  border: solid;
+  width: fit-content;
+  padding: 21px;
+  
   button.multiplierbuyer {
     margin-top: 10px;
     background-color: greenyellow;
@@ -44,6 +50,16 @@ div.shop {
   button.multiplierbuyer:active {
     background-color: lightgreen;
   }
+}
+
+div.funny-radio {
+  position: absolute;
+  border: round;
+  border-radius: 11px;
+  padding: 50px;
+  background-color: black;
+  color: azure;
+  font-family: 'Google Sans Code', sans-serif;
 }
 
 div.credits {
