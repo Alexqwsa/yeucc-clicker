@@ -36,7 +36,8 @@ div.shop {
   border: solid;
   width: fit-content;
   padding: 21px;
-  
+  border-radius: 11px;
+
   button.multiplierbuyer {
     margin-top: 10px;
     background-color: greenyellow;
@@ -52,6 +53,11 @@ div.shop {
   }
 }
 
+div.leaderboard {
+  text-align: right;
+
+}
+
 div.funny-radio {
   position: absolute;
   border: round;
@@ -60,6 +66,7 @@ div.funny-radio {
   background-color: black;
   color: azure;
   font-family: 'Google Sans Code', sans-serif;
+  box-align: right;
 }
 
 div.credits {

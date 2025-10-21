@@ -3,17 +3,17 @@ clickmulti = 1;
 clickmultiprice = 50;
 clickmultiowned = 0;
 
-//save file thingy
-//function save() {
-   // localStorage.setItem("yeucclings", yeucclings);
-    //localStorage.setItem("clickmulti", clickmulti);
-    //localStorage.setItem("clickmultiprice", clickmultiprice);
-//}
-//function load() {
-    //yeucclings = parseInt(localStorage.getItem("yeucclings"));
-    //clickmulti = parseInt(localStorage.getItem("clickmulti"));
-    //clickmultiprice = parseInt(localStorage.getItem("clickmultiprice"));
-//}
+/*save file thingy
+function save() {
+    localStorage.setItem("yeucclings", yeucclings);
+    localStorage.setItem("clickmulti", clickmulti);
+    localStorage.setItem("clickmultiprice", clickmultiprice);
+}
+function load() {
+    yeucclings = parseInt(localStorage.getItem("yeucclings"));
+    clickmulti = parseInt(localStorage.getItem("clickmulti"));
+    clickmultiprice = parseInt(localStorage.getItem("clickmultiprice"));
+*/
 
 
 function yeuccclick() {
@@ -43,5 +43,5 @@ function buyclickmultiplier() {
 //change the owner text on the credits when hovered on it
 function changeOwnerTextOnHover() {
     let ownerText = document.querySelector("owner-text");
-    ownerText.style.color = "red";
+    ownerText.innerHTML = "alexcroissant";
 }

@@ -20,6 +20,6 @@
 
 more credits are on the folders
 
-more soon™
+more soon™ (oh my god they trademarked the soon™ noooooooooooo)
 
 ### any complaints goes to DMS (might not respond quickly *or ever*)
